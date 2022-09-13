@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <title>Stammbaum</title>
+
+<script type="text/javascript" src="familytree.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+</head>
+<body onload="sliderFunc()">
+
+<!-- Rounded Switch - Language -->
+<label class="switch" id="switchID">
+    <input type="checkbox" id="settings-slider" onclick="sliderFunc()">
+    <span class="slider round"></span>
+    <p id="settings-text">Dunkel</p>
+</label>
+
+<noscript> <p style="color: green;background-color:powderblue;">Javascript muss aktiv sein!</p> </noscript>
+
+<script type="text/javascript" src="script.js"></script>
+
+<button onClick="downUpCSV(true)" class="css-button-gradient--4" id="cssUpload">CSV Hochladen</button>
+<button onClick="downUpCSV(false)" class="css-button-gradient--4" >CSV Downloaden</button>
+
+
+
+
+<div style="width:100%; height:700px;" id="tree"/>
+
+
+
+
+
+</body>
+
+
