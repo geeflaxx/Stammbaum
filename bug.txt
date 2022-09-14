@@ -1,9 +1,0 @@
-
-
-    Bug:
-
-    es ist dadurch immer grau
-
-            { id: 0, pids: [1], name: "Mr. Patrick", gender: "Männlich",  photo: 'https://cdn.balkan.app/shared/w60/1.jpg', city: "Frankfurt" },
-            { id: 1, pids: [0], name: "Tabitha Liebling", gender: "Weiblich", photo: "f.jpg", city:" TEST"},
-            { id: 3,  fid: 1, mid: 0, name: "De Baby", gender: "Männlich", photo: 'https://cdn.balkan.app/shared/w60/1.jpg' },
