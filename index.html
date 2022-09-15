@@ -1,41 +1,53 @@
 <!doctype html>
 <html lang="de">
-
+<!-- Header Stuff -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-
     <title>Stammbaum</title>
 
-<script type="text/javascript" src="familytree.js"></script>
+<!-- include Stuff -->
 <link rel="stylesheet" type="text/css" href="style.css"/>
-
+<script type="text/javascript" src="familytree.js"></script>
+<noscript> <p style="color: green;background-color:powderblue;">Javascript muss aktiv sein!</p> </noscript>
 </head>
-<body onload="sliderFunc()">
+<body>
 
-<!-- Rounded Switch - Language -->
+<!-- Rounded Switch - Language <script type="text/javascript" src="familytree.js"></script>
 <label class="switch" id="switchID">
     <input type="checkbox" id="settings-slider" onclick="sliderFunc()">
     <span class="slider round"></span>
     <p id="settings-text">Dunkel</p>
-</label>
+</label>-->
 
-<noscript> <p style="color: green;background-color:powderblue;">Javascript muss aktiv sein!</p> </noscript>
 
-<script type="text/javascript" src="script.js"></script>
-
+<!-- Button Stuff -->
 <button onClick="downUpCSV(true)" class="css-button-gradient--4" id="cssUpload">Baum Hochladen</button>
 <button onClick="downUpCSV(false)" class="css-button-gradient--4" >Baum Downloaden</button>
 
 
 
+<!-- NOTES
+
+TODO WICHTIG:
+Spitzname hinter den Namen
+Namen verfÃ¤rben bei auswahl
+Bild in den Details
+Bilder hochladen
+
+
+Add Partner, Pet
+
+TODO NICE
+Hintergrund ändern
+
+-->
+
 
 <div style="width:100%; height:700px;" id="tree"/>
 
-
-
-
+    <script type="text/javascript" src="script.js"></script>
 
 </body>
 

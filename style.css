@@ -10,9 +10,37 @@ html, body{
   width:100%;
   height:100%;
 }
+/* Dark mode
+#tree>svg {
+  background-color: #2E2E2E;
+}
+*/
+
+/* Felder */
+.field_0 {
+  font-family: Impact;
+  text-transform: uppercase;
+  fill: #cfcfcf;
+}
 
 
+.field_1 {
+  fill: #000000;
+}
 
+/* Pfad */
+[data-l-id] path {
+  stroke: cornflowerblue;
+}
+/* Einheitliche Farben
+svg.tommy .node.female>rect {
+  fill: #FF46A3;
+}
+svg.tommy .node.male>rect-shape-gradient{
+  fill: #039be5;
+}
+*/
+/* Download Upload Button */
 .css-button-gradient--4 {
   min-width: 130px;
   height: 40px;
@@ -42,8 +70,6 @@ html, body{
 #cssUpload {
   margin-top: 50px;
 }
-
-
 
 
 .css-button-gradient--4:hover {
